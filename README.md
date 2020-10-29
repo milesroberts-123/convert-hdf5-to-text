@@ -1,7 +1,7 @@
 # convert-hdf5-to-text
 Convert the data in a hdf5-formatted file into a series of text files, which are easier to manipulate.
 
-HDF5 files are ]hierarchially structured data files](https://en.wikipedia.org/wiki/Hierarchical_Data_Format). They're analogous to lists in R where every element or "group" in the HDF5 file can have a different structure. While HDF5 files are nice for storing data, it's usually easier to manipulate data when it's stored in delimited text files instead (e.g. csv and tsv files). This script will take each group in an HDF5 file and convert it to a delimited text file format.
+HDF5 files are [hierarchially structured data files](https://en.wikipedia.org/wiki/Hierarchical_Data_Format). They're analogous to lists in R where every element or "group" in the HDF5 file can have a different structure. While HDF5 files are nice for storing data, it's usually easier to manipulate data when it's stored in delimited text files instead (e.g. csv and tsv files). This script will take each group in an HDF5 file and convert it to a delimited text file format.
 
 ## USAGE
 
